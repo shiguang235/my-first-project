@@ -1,0 +1,14 @@
+环境切换 conda activate py38
+创建环境 conda create -n (huanjingming)  python=3.10（版本）-y
+下载库  conda install 库名
+退出环境conda deactivate
+jupyter notebook --notebook-dir="D:\ML_Project"        py38
+jupyter notebook --notebook-dir="D:\jupyter_notebook_working"  d2l
+
+
+设置代理服务器
+set http_proxy=http://127.0.0.1:7890
+set https_proxy=https://127.0.0.1:7890
+127.0.0.1 是本机回环地址（localhost），表示代理服务器在本机运行。
+
+7890 是代理服务器监听的端口号。
